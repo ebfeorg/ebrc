@@ -1,3 +1,8 @@
+---
+nav: components
+toc: content
+---
+
 # SliderVerify
 
 滑块验证码组件

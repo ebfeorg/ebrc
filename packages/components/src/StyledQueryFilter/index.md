@@ -5,7 +5,21 @@ toc: content
 
 # StyledQueryFilter
 
-说明.
+表单组件。封装的ant-design/pro-components
+
+## 安装
+
+```bash
+npm install ebn-fe-components
+```
+
+## 使用
+
+导入对应组件
+
+```tsx | pure
+
+```
 
 ## 代码演示
 
@@ -43,8 +57,10 @@ export default () => {
 };
 ```
 
-## API
+## 属性
 
-### StyledQueryFilter
-
-<API id="StyledQueryFilter"></API>
+| 属性名            | 说明                                          | 类型    | 默认值 |
+| ----------------- | --------------------------------------------- | ------- | ------ |
+| defaultColsNumber | 默认一行显示几个表单项                        | number  | 7      |
+| defaultCollapsed  | 收缩                                          | boolean | false  |
+| QueryFilterProps  | @ant-design/pro-components的 QueryFilterProps |
