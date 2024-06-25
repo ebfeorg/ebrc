@@ -1,3 +1,8 @@
+---
+nav: components
+toc: content
+---
+
 # FlexRowCol
 
 自动适配宽度的 Row Col 容器
